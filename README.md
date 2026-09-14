@@ -1,7 +1,7 @@
 # 📊 RavenStack SaaS Analytics & Power BI Dashboard
 
 ### Dashboard Preview
-
+ravenstack_dashboard.pbix
 <img src="assets/overview.png"
      width="900"
      alt="RavenStack SaaS Analytics Power BI Dashboard">
