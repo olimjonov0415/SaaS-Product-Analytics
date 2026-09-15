@@ -1,7 +1,8 @@
 # 📊 RavenStack SaaS Analytics & Power BI Dashboard
 
 ### Dashboard Preview
-ravenstack_dashboard.pbix
+[📊 Open ravenstack_dashboard.pbix](powerbi/ravenstack_dashboard.pbix)
+
 <img src="assets/overview.png"
      width="900"
      alt="RavenStack SaaS Analytics Power BI Dashboard">
@@ -148,10 +149,10 @@ This project aims to answer the following questions:
 ## 💡 Key Insights
 
 - Overall account churn sits around **22%**, but plan tier shows almost no relationship to churn (Cramér's V ≈ 0.002) — pricing tier alone doesn't explain who leaves.
-- Industry and referral-source differences in churn are directionally interesting but **not statistically significant** at conventional thresholds once tested with a chi-square test — a reminder not to over-read raw percentage bars.
-- Adjusting for cohort age (right-censoring), **first-3-month churn has been climbing steadily** across 2023–2024 signup cohorts, from roughly 4–5% up to double digits — a stronger and more actionable signal than the blended, unadjusted churn rate suggested.
+- Industry and referral-source differences in churn are directionally interesting but **not statistically significant** at conventional thresholds once tested with a chi-square test — a reminder not to over-interpret subgroup differences in small samples.
+- Adjusting for cohort age (right-censoring), **first-3-month churn has been climbing steadily** across 2023–2024 signup cohorts, from roughly 4–5% up to double digits — a stronger and more actionable signal than overall churn rate.
 - Support ticket volume, resolution time, and satisfaction show **little measurable difference** between churned and retained accounts in this dataset.
-- Two underlying data-quality issues (a duplicate CSV header row and a `churn_flag` / `churn_events` mismatch) had to be resolved before any of the above could be trusted — a core reminder that dashboard numbers are only as reliable as the reconciliation work behind them.
+- Two underlying data-quality issues (a duplicate CSV header row and a `churn_flag` / `churn_events` mismatch) had to be resolved before any of the above could be trusted — a core reminder that dashboard polish matters far less than data integrity.
 
 ---
 
