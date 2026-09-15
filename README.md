@@ -195,6 +195,6 @@ RavenStack SaaS Analytics/
 
 ---
 
-## 🙏 Credit
+## Credit
 
 Dataset: **RavenStack Synthetic SaaS Dataset** by River @ Rivalytics — fully synthetic, no PII. Used here for educational and portfolio purposes with credit to the original author.
